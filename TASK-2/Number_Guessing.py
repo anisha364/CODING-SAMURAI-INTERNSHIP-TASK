@@ -3,7 +3,7 @@ import random
 number = random.randint(1, 10)
 attempts = 0
 
-print("🎯 Welcome to Number Guessing Game!")
+print("Welcome to Number Guessing Game!")
 print("Guess a number between 1 and 10")
 
 while True:
@@ -23,4 +23,5 @@ while True:
     elif guess > number:
         print("Too High! Try again.")
     else:
+
         print("Too Low! Try again.")
