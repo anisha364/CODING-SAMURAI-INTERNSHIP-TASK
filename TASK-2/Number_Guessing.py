@@ -17,7 +17,7 @@ while True:
     attempts += 1
 
     if guess == number:
-        print("🎉 Congratulations! You guessed the correct number.")
+        print("Congratulations! You guessed the correct number.")
         print("Total attempts:", attempts)
         break
     elif guess > number:
@@ -25,3 +25,4 @@ while True:
     else:
 
         print("Too Low! Try again.")
+
